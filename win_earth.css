@@ -10,9 +10,9 @@ body {
     src: url(summer-pixel-22-font/SummerPixel22Regular-jE0W7.ttf)
 }
 h1 {
-    color: black;
+    color: red;
     font-family: summer-pixel;
-    font-size: 50px;
+    font-size: 70px;
     padding: 0 0 0 0;
     margin: 0 0 0 0;
     text-align: center;
@@ -23,10 +23,12 @@ h1 {
     top: 20px;
 }
 
+
  #scene {
-    background: url('arena_elements.jpg') no-repeat;
+    background: url('arena_win.jpg') no-repeat;
     height: 375px;
     width: 750px;
+    margin: auto;
 
     position: relative;
     top: 20px;
@@ -35,7 +37,7 @@ h1 {
 
  #situation {
     position: absolute;
-    top: 260px;
+    top: 300px;
     left: 35px;
     padding: 15px 15px 15px 15px;
     margin: auto;
@@ -44,60 +46,6 @@ h1 {
     width: 640px;
     text-align: center;
  }
-
- #Earth {
-
-position: absolute;
-left: 160px;
-top: 125px;
-
-width: 50px;
-height: 53px;
- }
-
- #Earth:hover {
-    background-color: rgba(165, 42, 42, .5);
- }
-
- #Wind {
-    position: absolute;
-    left: 230px;
-    top: 160px;
-
-    width: 60px;
-    height: 60px;
- }
-
- #Wind:hover {
-    background-color: rgba(256, 256, 256, .5);
- }
-
- #Water {
-    position: absolute;
-    left: 470px;
-    top: 150px;
-
-    width: 50px;
-    height: 80px;
- }
-
- #Water:hover {
-    background-color: rgba(0, 0, 255, .5);
- }
-
-#Fire {
-   position: absolute;
-   left: 540px;
-   top: 130px;
-
-   width: 50px;
-   height: 60px;
-}
-
-#Fire:hover {
-   background-color: rgba(255, 0, 0, .5);
-}
-
 a {
     color: white;
     text-decoration: none;

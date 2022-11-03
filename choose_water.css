@@ -23,10 +23,12 @@ h1 {
     top: 20px;
 }
 
+
  #scene {
-    background: url('arena_elements.jpg') no-repeat;
+    background: url('arena_attack.jpg') no-repeat;
     height: 375px;
     width: 750px;
+    margin: auto;
 
     position: relative;
     top: 20px;
@@ -35,7 +37,7 @@ h1 {
 
  #situation {
     position: absolute;
-    top: 260px;
+    top: 310px;
     left: 35px;
     padding: 15px 15px 15px 15px;
     margin: auto;
@@ -45,64 +47,36 @@ h1 {
     text-align: center;
  }
 
- #Earth {
+#Physical {
 
-position: absolute;
-left: 160px;
-top: 125px;
-
-width: 50px;
-height: 53px;
- }
-
- #Earth:hover {
-    background-color: rgba(165, 42, 42, .5);
- }
-
- #Wind {
     position: absolute;
-    left: 230px;
-    top: 160px;
+    top: 105px;
+    left: 190px;
 
-    width: 60px;
-    height: 60px;
- }
-
- #Wind:hover {
-    background-color: rgba(256, 256, 256, .5);
- }
-
- #Water {
-    position: absolute;
-    left: 470px;
-    top: 150px;
-
-    width: 50px;
-    height: 80px;
- }
-
- #Water:hover {
-    background-color: rgba(0, 0, 255, .5);
- }
-
-#Fire {
-   position: absolute;
-   left: 540px;
-   top: 130px;
-
-   width: 50px;
-   height: 60px;
+    width: 80px;
+    height: 90px;
 }
 
-#Fire:hover {
-   background-color: rgba(255, 0, 0, .5);
+#Physical:hover {
+    background: rgba(225, 0, 0, .5);
 }
-
 a {
     color: white;
     text-decoration: none;
 }
 
+#Magic {
+    position: absolute;
+    top: 105px;
+    left: 450px;
+
+    width: 80px;
+    height: 90px;
+}
+
+#Magic:hover {
+    background: rgba(255, 255, 0, .5);
+}
 a:hover {
     text-decoration: underline;
 }

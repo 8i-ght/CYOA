@@ -10,22 +10,22 @@ body {
     src: url(summer-pixel-22-font/SummerPixel22Regular-jE0W7.ttf)
 }
 h1 {
-    color: red;
+    color: white;
     font-family: summer-pixel;
-    font-size: 150px;
+    font-size: 100px;
     padding: 0 0 0 0;
     margin: 0 0 0 0;
     text-align: center;
 
+
     position: absolute;
     left: 20px;
     right: 20px;
-    top: 30px;
+    top: 20px;
 }
 
-
  #scene {
-    background: url('god_of_water.jpg') no-repeat;
+    background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ec990999-2f5f-4cf3-9ff1-82a080a33dbd/dfcyi9u-4c6ee77a-749a-4367-bd17-fbc600029200.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2VjOTkwOTk5LTJmNWYtNGNmMy05ZmYxLTgyYTA4MGEzM2RiZFwvZGZjeWk5dS00YzZlZTc3YS03NDlhLTQzNjctYmQxNy1mYmM2MDAwMjkyMDAuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.BoaVBoHMKpJcVvV46xt7-Xvx6xes8Xjv8kIAquBp5MM') no-repeat;
     height: 375px;
     width: 750px;
     margin: auto;
@@ -35,13 +35,11 @@ h1 {
     left: 20px;
  }
  #situation {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 300px;
+    left: 35px;
     padding: 15px 15px 15px 15px;
     margin: auto;
-    color: red;
 
     background-color: rgba(0,0,0,.5);
     width: 640px;
